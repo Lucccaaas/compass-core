@@ -1,0 +1,102 @@
+#+TITLE: Compass Mixins
+
+* utilities
+  总的目录结构
+  #+BEGIN_src
+  ├── color                        ;颜色
+  │   ├── _brightness.scss
+  │   └── _contrast.scss
+  ├── general                      ;通用部分
+  │   ├── _clearfix.scss
+  │   ├── _float.scss
+  │   ├── _hacks.scss
+  │   ├── _min.scss
+  │   ├── _reset.scss
+  │   ├── _tabs.scss
+  │   └── _tag-cloud.scss
+  ├── links                        ;links
+  │   ├── _hover-link.scss
+  │   ├── _link-colors.scss
+  │   └── _unstyled-link.scss
+  ├── lists                        ;lists
+  │   ├── _bullets.scss
+  │   ├── _horizontal-list.scss
+  │   ├── _inline-block-list.scss
+  │   └── _inline-list.scss
+  ├── sass                         ;sass
+  │   ├── _lists.scss
+  │   └── _maps.scss
+  ├── sprites                      ;sprites
+  │   ├── _base.scss
+  │   └── _sprite-img.scss
+  ├── tables                                  ;tables
+  │   ├── _alternating-rows-and-columns.scss
+  │   ├── _borders.scss
+  │   └── _scaffolding.scss
+  └── text                                    ;text
+      ├── _ellipsis.scss
+      ├── _nowrap.scss
+      └── _replacement.scss
+  #+END_SRC
+* typography
+  排版相关
+  #+BEGIN_SRC
+  .
+  ├── _links.scss
+  ├── _lists.scss
+  ├── _text.scss
+  ├── _units.scss
+  ├── _vertical_rhythm.scss
+  ├── links
+  │   ├── _hover-link.scss
+  │   ├── _link-colors.scss
+  │   └── _unstyled-link.scss
+  ├── lists
+  │   ├── _bullets.scss
+  │   ├── _horizontal-list.scss
+  │   ├── _inline-block-list.scss
+  │   └── _inline-list.scss
+  └── text
+      ├── _ellipsis.scss
+      ├── _force-wrap.scss
+      ├── _nowrap.scss
+      └── _replacement.scss
+  #+END_SRC
+* css3
+  #+BEGIN_SRC
+  .
+  ├── _animation.scss
+  ├── _appearance.scss
+  ├── _background-clip.scss
+  ├── _background-origin.scss
+  ├── _background-size.scss
+  ├── _border-radius.scss
+  ├── _box-shadow.scss
+  ├── _box-sizing.scss
+  ├── _box.scss
+  ├── _columns.scss
+  ├── _deprecated-support.scss
+  ├── _filter.scss
+  ├── _flexbox.scss
+  ├── _font-face.scss
+  ├── _hyphenation.scss
+  ├── _images.scss
+  ├── _inline-block.scss
+  ├── _opacity.scss
+  ├── _pie.scss
+  ├── _regions.scss
+  ├── _selection.scss
+  ├── _shared.scss
+  ├── _text-shadow.scss
+  ├── _transform.scss
+  ├── _transition.scss
+  └── _user-interface.scss
+  #+END_SRC
+* layout
+  背景色，footer，铺满
+  #+BEGIN_SRC
+  ├── _grid-background.scss
+  ├── _sticky-footer.scss
+  └── _stretching.scss
+  #+END_SRC
+* reset
